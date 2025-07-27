@@ -20,11 +20,7 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -45,24 +41,81 @@
     <section id="about" class="section about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <div class="about-grid">
+            <div class="about-content">
+                <!-- Profile Image -->
                 <div class="about-image">
-                    <!-- Placeholder avatar circle; will be replaced with LinkedIn photo once available -->
+                    <!-- If a LinkedIn photo is available, replace the placeholder div below with an <img> tag pointing to your profile photo file in the repo -->
                     <div class="avatar-placeholder"></div>
                 </div>
+                <!-- Personal Introduction -->
                 <div class="about-text">
                     <p>I’m a data enthusiast with hands‑on experience in leveraging analytics, machine learning and cloud technologies to solve real‑world business problems. Over the last few years I’ve built predictive models, designed automated data pipelines and delivered self‑service dashboards for organisations ranging from global consumer electronics firms to AI startups.</p>
                     <p>My goal is to make data accessible and actionable – whether that’s analysing customer behaviour to optimise revenue, orchestrating scalable pipelines to process millions of records or crafting clear visualisations that empower stakeholders to make informed decisions.</p>
                     <p>Outside of work, I enjoy mentoring students, exploring emerging tech and taking on side projects that challenge the status quo.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
+            <!-- Timeline / Journey -->
+            <h3 class="subsection-title">My Journey</h3>
+            <div class="timeline">
+                <!-- Education 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2023 – Dec 2024</span>
+                        <h4>M.S. Data Analytics Engineering</h4>
+                        <p>George Mason University, Fairfax, VA</p>
+                    </div>
+                </div>
+                <!-- Education 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2016 – May 2020</span>
+                        <h4>B.Tech Electronics &amp; Instrumentation</h4>
+                        <p>Sastra University, Tamil Nadu, India</p>
+                    </div>
+                </div>
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2025 – Jun 2025</span>
+                        <h4>Data Analyst – SharkNinja</h4>
+                        <p>Boston, MA</p>
+                    </div>
+                </div>
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Aug 2024 – Dec 2024</span>
+                        <h4>Data Analyst – Erasmus.AI</h4>
+                        <p>Fairfax, VA</p>
+                    </div>
+                </div>
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2022 – Dec 2022</span>
+                        <h4>Data Analyst (Retail) – Brillio Technologies</h4>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+                <!-- Experience 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2021 – Apr 2022</span>
+                        <h4>Data Analyst – Infosys LTD</h4>
+                        <p>Bangalore, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Subsection -->
+            <h3 class="subsection-title">Skills</h3>
             <div class="skills-grid">
                 <!-- Programming & Query Languages -->
                 <div class="skill-item">
@@ -84,7 +137,7 @@
                 <!-- Data Analysis & ML -->
                 <div class="skill-item">
                     <i class="fa-solid fa-chart-line"></i>
-                    <span>EDA & Statistics</span>
+                    <span>EDA &amp; Statistics</span>
                 </div>
                 <div class="skill-item">
                     <i class="fa-solid fa-flask"></i>
@@ -96,7 +149,7 @@
                 </div>
                 <div class="skill-item">
                     <i class="fa-solid fa-brain"></i>
-                    <span>NLP & ML</span>
+                    <span>NLP &amp; ML</span>
                 </div>
                 <!-- Visualisation & Reporting -->
                 <div class="skill-item">
@@ -120,6 +173,7 @@
                     <i class="fa-solid fa-server"></i>
                     <span>Data Warehousing</span>
                 </div>
+                    
                 <div class="skill-item">
                     <i class="fa-solid fa-snowflake"></i>
                     <span>Snowflake</span>
@@ -153,57 +207,7 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <!-- SharkNinja -->
-                <div class="timeline-item">
-                    <h3>Data Analyst – SharkNinja</h3>
-                    <span class="timeline-date">Boston | Jan 2025 – Jun 2025</span>
-                    <ul>
-                        <li>Gathered sales and product availability data from Salesforce CRM, modelled it and performed statistical analysis, providing recommendations on product demand trends and revenue risks.</li>
-                        <li>Built predictive sales models with feature engineering in Python and Spark on Databricks, achieving a 78 % accuracy.</li>
-                        <li>Designed a Snowflake data warehouse with automated ETL pipelines that processed 1.3M+ rows each week.</li>
-                        <li>Transitioned operational reports into automated Power BI dashboards, reducing manual effort by 70 %.</li>
-                        <li>Built a LangChain &amp; OpenAI agent POC for operations insights, cutting decision time by 90 %.</li>
-                    </ul>
-                </div>
-                <!-- Erasmus.AI -->
-                <div class="timeline-item">
-                    <h3>Data Analyst – Erasmus.AI</h3>
-                    <span class="timeline-date">Fairfax | Aug 2024 – Dec 2024</span>
-                    <ul>
-                        <li>Built data pipelines for web scraping and storing data in a SQL database, enabling fast retrieval via function‑calling systems.</li>
-                        <li>Designed and deployed a multi‑modal GPT powered by LLAMA 3.1 on Hugging Face Spaces to query climate trends.</li>
-                        <li>Executed A/B tests on a revamped chatbot, expanding knowledge‑base coverage by 36 % and cutting average query processing time by 20 %.</li>
-                    </ul>
-                </div>
-                <!-- Brillio Technologies -->
-                <div class="timeline-item">
-                    <h3>Data Analyst (Retail) – Brillio Technologies</h3>
-                    <span class="timeline-date">Bangalore | Apr 2022 – Dec 2022</span>
-                    <ul>
-                        <li>Developed predictive models in Python and Spark to identify purchase patterns, boosting targeted sales campaigns and increasing conversion rates by 15 %.</li>
-                        <li>Automated weekly sales dashboards in Tableau &amp; Alteryx, cutting reporting time by 65 %.</li>
-                        <li>Analysed customer segmentation and loyalty trends, leading to a 12 % increase in repeat purchases.</li>
-                        <li>Optimised Tableau dashboards, reducing load times by 45 %.</li>
-                    </ul>
-                </div>
-                <!-- Infosys -->
-                <div class="timeline-item">
-                    <h3>Data Analyst – Infosys LTD</h3>
-                    <span class="timeline-date">Bangalore | Jan 2021 – Apr 2022</span>
-                    <ul>
-                        <li>Consolidated POS data from 400+ stores and built interactive Power BI visualisations to support diverse business units.</li>
-                        <li>Conducted ad‑hoc analyses on operational and financial datasets, uncovering cost‑saving opportunities worth $750K annually.</li>
-                        <li>Developed data quality monitoring scripts in Python and SQL, improving data quality by 30 %.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="section projects">
@@ -266,38 +270,31 @@
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <ul class="education-list">
-                <li><strong>Master of Science, Data Analytics Engineering</strong> – George Mason University, Fairfax, VA (Aug 2023 – Dec 2024)</li>
-                <li><strong>B.Tech, Electronics &amp; Instrumentation</strong> – Sastra University, Tamil Nadu, India (Jul 2016 – May 2020)</li>
-            </ul>
-        </div>
-    </section>
 
-    <!-- Achievements Section -->
-    <section id="achievements" class="section achievements">
-        <div class="container">
-            <h2 class="section-title">Achievements &amp; Activities</h2>
-            <ul class="achievements-list">
-                <li>Graduate Teaching Assistant for Operations Management and NLP courses, mentoring over 150 students.</li>
-                <li>Published an IEEE paper titled “LABVIEW Based Alert System for Bedridden Patients”.</li>
-                <li>President of the Maths Club and University Events Club for two years, overseeing operations and events.</li>
-                <li>Won first prize in the Manual Robotics competition at the DAKSH technical fest in 2017 and 2018.</li>
-            </ul>
-        </div>
-    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p>If you'd like to discuss data, projects or opportunities, feel free to reach out.</p>
+            <h2 class="section-title">Get in Touch</h2>
+            <p>If you'd like to discuss data, projects or opportunities, please drop a note below. Your message will be delivered directly to my inbox.</p>
+            <!-- Contact Form using FormSubmit for email forwarding -->
+            <form class="contact-form" action="https://formsubmit.co/saiprasanth6111@gmail.com" method="POST">
+                <!-- Disable CAPTCHA so the form is lightweight -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Redirect to a thank you page once submitted (we use the same portfolio site) -->
+                <input type="hidden" name="_next" value="https://k-sai-prasanth.github.io/data-analyst-portfolio/thank-you.html">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-row">
+                    <textarea name="message" rows="5" placeholder="Purpose / Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <!-- Optional direct contact links -->
             <ul class="contact-list">
                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:saiprasanth6111@gmail.com">saiprasanth6111@gmail.com</a></li>
-                <li><i class="fa-solid fa-phone"></i> <a href="tel:+15714558545">+1 571 455 8545</a></li>
                 <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/k-saiprasanth/" target="_blank" rel="noopener">LinkedIn</a></li>
             </ul>
         </div>
