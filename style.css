@@ -246,21 +246,21 @@ img {
     position: absolute;
     left: -2px;
     top: 0;
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     background: var(--primary);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--white);
-    font-size: 0.8rem;
+    font-size: 1rem;
     z-index: 1;
 }
 
 .timeline-icon i {
     color: var(--white);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 .timeline-content {
     padding-left: 1rem;
@@ -296,6 +296,7 @@ img {
     background: var(--white);
     padding: 1.2rem;
     border-radius: 8px;
+    border: 1px solid var(--secondary);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
@@ -317,7 +318,7 @@ img {
 
 .skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
 
